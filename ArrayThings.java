@@ -12,6 +12,7 @@ public class ArrayThings {
     }
 
     public static String arrayDeepToString(int[][] arr) {
+        if(arr.length == 0) return "{}";
         String result = "{";
         for(int i = 0; i < arr.length - 1; ++i) {
             result += arrToString(arr[i]) + ", ";
