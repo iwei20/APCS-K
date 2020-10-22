@@ -5,8 +5,6 @@ public class Demo {
         } else {
             printLoop(5);
         }
-
-        System.out.println(arrayDeepToString(create2DArrayRandomized(6, 4, 4)));
     }
 
     public static String arrayDeepToString(int[][] arr) {
