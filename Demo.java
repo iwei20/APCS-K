@@ -52,7 +52,7 @@ public class Demo {
 
         for(int i = 0; i < rows; ++i) {
 
-            int[] randWidthRow = new int[(int) ((maxValue + 1) * Math.random())];
+            int[] randWidthRow = new int[(int) ((cols + 1) * Math.random())];
             for(int j = 0; j < randWidthRow.length; ++j) {
                 randWidthRow[j] = (int) ((maxValue + 1) * Math.random());
             }
